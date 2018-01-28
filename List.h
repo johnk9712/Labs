@@ -59,7 +59,12 @@ private:
 };
 
 // printList: non-member function prototype
-void printList(List& source, bool direction);
+
+
+//void printList(List& source, bool direction);
+
+
+
 //prints list forwards when direction is true
 //or backwards when direction is false
 

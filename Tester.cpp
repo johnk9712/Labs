@@ -15,9 +15,14 @@ int main(){
 
   int some_num = 4;
   List* testList = new List;
-  ListNode* h;
-  
 
-  
-  return 0;
+  ListNode* node1 = new ListNode;
+  ListNode* node2 = new ListNode;
+  ListNode* node3 = new ListNode;
+  ListNode* node4 = new ListNode;
+
+  ListItr* iterator1 = new ListItr(node1);
+  ListItr* iterator2 = new ListItr(node2);
+
+  testList->insertAfter(5, * iterator1);
 }
